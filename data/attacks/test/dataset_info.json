@@ -1,0 +1,58 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "parquet",
+  "dataset_size": 192987,
+  "description": "",
+  "download_checksums": {
+    "/Users/didi/mcp-attack-analysis/./data/attacks1.parquet": {
+      "num_bytes": 85850,
+      "checksum": null
+    }
+  },
+  "download_size": 85850,
+  "features": {
+    "attack_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "server_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tool_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tool_content": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "query": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "is_attack": {
+      "dtype": "bool",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 278837,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 192987,
+      "num_examples": 491,
+      "dataset_name": "parquet"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
