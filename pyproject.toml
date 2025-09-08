@@ -1,0 +1,20 @@
+[project]
+name = "mcp-attack-analysis"
+version = "0.1.0"
+description = "An evaluation and analysis project for MCP attacks."
+authors = [{ name = "ShengRen", email = "rensheng0410@outlook.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deepspeed",
+    "litellm",
+    "openai",
+    "python-dotenv",
+    "rich",
+    "swanlab",
+    "trl[peft,vllm]",
+    "unsloth",
+]
+
+[dependency-groups]
+dev = ["ipykernel"]
